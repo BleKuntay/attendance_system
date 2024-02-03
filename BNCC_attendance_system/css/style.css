@@ -1,0 +1,23 @@
+:root {
+    --main-clr: #0B60B0;
+    --scnd-clr: #ffffff;
+}
+
+body {
+    background-color: var(--main-clr);
+}
+
+.container {
+    background-color: var(--scnd-clr);
+    height: 80vh;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
